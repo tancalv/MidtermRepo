@@ -24,9 +24,8 @@ public class Arithmetic
     {
        
         ArithmeticBase r= new ArithmeticBase();
-        double result = r.calculate(1,2);
-        System.out.println("result :" +result); 
-    
+        r.calculate(1,2);
+     
     }
 
 
